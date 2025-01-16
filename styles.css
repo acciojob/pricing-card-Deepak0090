@@ -1,1 +1,66 @@
-/*  your css code here. If applicable */
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Styling the card */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Styling the image */
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styling the title */
+.card-title {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #333333;
+}
+
+/* Styling the price */
+.card-price {
+    font-size: 1.2em;
+    color: #28a745;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Styling the description */
+.card-description {
+    font-size: 0.9em;
+    color: #666666;
+    margin: 10px 0;
+}
+
+/* Styling the button */
+.card-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
